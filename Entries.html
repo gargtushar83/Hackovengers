@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-firestore.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +25,17 @@
 </head>
 
 <body bgcolor="black"></body>
-<div class="container"></div>
+
+
+//<div class="container">
+  <div class="content">
+
+            <form id="display-content"></form>
+
+            <ul id="list"></ul>
+
+        </div>
+//</div>
   <img src="./ENTRIES.png" alt="image2" width="1520px" height="735px">
   <div class="top-left"><style>
     body {
@@ -76,7 +88,27 @@
       background-color:#444;
     }
     </style>
+
     </head>
+    <script>
+ 
+      var config = {
+        apiKey: "AIzaSyCTomU2irQIP7oBNv1ibaIkOCgLVj8AuHU",
+        authDomain: "hosteler-8cd2f.firebaseapp.com",
+        projectId: "hosteler-8cd2f",
+        storageBucket: "hosteler-8cd2f.appspot.com",
+        messagingSenderId: "414901284616",
+        appId: "1:414901284616:web:e74e8c98d33ac54a5f86bd",
+        measurementId: "G-X3F7BWFN8X"
+      };
+    
+      // Initialize Firebase
+      firebase.initializeApp(config);
+      const db= firebase.firestore();
+      db.settings({ timestampsInSnapshots: true }); 
+    </script>
+    
+    <script src="exchange.js"></script>
     <body>
     
     <div id="mySidepanel" class="sidepanel">
