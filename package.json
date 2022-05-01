@@ -1,0 +1,24 @@
+{
+  "name": "hackovengers",
+  "version": "1.0.0",
+  "description": "Hackowasp 4.1 Hackathon Project of Hackovengers",
+  "main": "exchange.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayankt-21/Hackovengers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayankt-21/Hackovengers/issues"
+  },
+  "homepage": "https://github.com/Mayankt-21/Hackovengers#readme",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

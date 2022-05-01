@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="entry.css">
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-firestore.js"></script>
+    <style>
+        .container {
+          position: relative;
+          text-align: center;
+          color: white;
+        }
+        
+        .bottom-left {
+          position: absolute;
+          bottom: 35px;
+          left: 320px;
+        }
+        </style>
+</head>
+`
+<body>
+  <script>
+ 
+      var config = {
+        apiKey: "AIzaSyCTomU2irQIP7oBNv1ibaIkOCgLVj8AuHU",
+        authDomain: "hosteler-8cd2f.firebaseapp.com",
+        projectId: "hosteler-8cd2f",
+        storageBucket: "hosteler-8cd2f.appspot.com",
+        messagingSenderId: "414901284616",
+        appId: "1:414901284616:web:e74e8c98d33ac54a5f86bd",
+        measurementId: "G-X3F7BWFN8X"
+      };
+    
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      const db= firebase.firestore();
+      db.settings({timestampsInSnapshots : true});
+  </script>
+  <script src="exchange.js"></script>
+  
+      <body bgcolor="black"></body>
+    <div class="bottom-left"><div>
+        <form action="/action_page.php">
+            <h1>ENTER YOUR DETAILS</h1>
+          <label for="fname">Your Name</label>
+          <input type="text" id="fname" name="Your Name" placeholder="Your name..">
+      
+          <label for="Ename">Thapar Email</label>
+          <input type="text" id="Ename" name="Thapar Email" placeholder="Your Email..">
+      
+          <label for="Phone Number">Phone Number</label>
+          <input type="text" id="Phone Number" name="Phone Number" placeholder="Your Phone Number..">
+
+          <button class="submit"><A href="thnku.html">SUBMIT</A></button>
+
+        </form>
+      </div>
+</div>    
+      <img src="./entry.png" alt="image2" width="1520px" height="735px">
+
+</body>
+</html>
+
